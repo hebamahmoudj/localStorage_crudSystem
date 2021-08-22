@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body >
+  
+   <div class="container">
+    <div class=" bg-secondary text-white w-75 m-auto p-3  font-weight-bold">
+    <h2 class=" text-center font-weight-bold text-white-50">crud system </h2>
+    <label for="" class="mt-3">productName:</label>
+<input type="text" name="productName" id="productNameInput" class="form-control my-2">
+
+<label for="">productPrice:</label>
+<input type="text" name="productPrice" id="productPriceInput" class="form-control my-2">
+<label for="">productCategory:</label>
+<input type="text" name="productCategory" id="productCategoryInput" class="form-control my-2">
+<label for="">productDesc:</label>
+<textarea  name="productDesc" id="productDescInput" class="form-control my-2"></textarea>
+<button class="btn btn-warning shadow px-4 mb-5 mt-2 " id="add">Add</button> 
+  </div>
+  <div class="w-50 pt-3 m-auto"> <input onkeyup="searchInput(this.value)" class="form-control shadow">
+    <div id="searchresult" class="w-100"></div>
+ </div>
+  <table class="table border my-5 text-center ">
+    <thead>
+      <th>productName</th>
+      <th>productPrice</th>
+      <th>productCategory</th>
+      <th>productDesc</th>
+      <th>update</th>
+      <th>delete</th>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+</div>
+<!-- <img  id="img" src="images/128032729-bright-feminine-banner-header-with-a-stylish-workspace-with-laptop-computer-smartphone-modern-office.jpg"> -->
+  
+  <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <!-- <script src="js/popper.min.j>s.map"></script> -->
+ <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+ <script src="js/script.js"></script>
+
+
+</body>
+</html>
